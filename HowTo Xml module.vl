@@ -79,6 +79,56 @@
               <Choice Kind="ImmutableTypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
+          <Node Bounds="710,171,125,19" Id="NB9tys9mwBjLTmJtvJJSUi">
+            <p:NodeReference LastCategoryFullName="IO.OSC" LastDependency="VL.IO.OSC.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="OSC" />
+            </p:NodeReference>
+            <Pin Id="OsUSYzV7LpRLqN7m4Tholl" Name="Show Binding Column" Kind="InputPin" IsHidden="true" />
+            <Pin Id="Uxf1Zw72chbL9343qlxhMy" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="CvMLni1MatNMR3MH7nC2Nw" Name="Model" Kind="InputPin" IsHidden="true">
+              <p:DefaultValue r:Type="Spread [Collections]&lt;BindingModel [IO.OSC]&gt;" xmlns:r="reflection" r:Version="2">
+                <Item Channel_Path="MyValue" />
+              </p:DefaultValue>
+            </Pin>
+            <Pin Id="EHgIeh5W9lWOMVESAdDGiy" Name="Nickname" Kind="InputPin" />
+            <Pin Id="NUMdbXaHQ2rL0SigwBFZQK" Name="Listening IP" Kind="InputPin" IsHidden="true" />
+            <Pin Id="IBmkrVzX1s3P6UsYXOCdS9" Name="Listening Port" Kind="InputPin" />
+            <Pin Id="SeBm43t97aDNumY18znsaS" Name="Server Enabled" Kind="InputPin" />
+            <Pin Id="OhDbwKxZdFdOA222xnxd0o" Name="Server" Kind="InputPin" />
+            <Pin Id="MUllj5ZPPLnOFVL2qqz052" Name="Server Port" Kind="InputPin" />
+            <Pin Id="L7umag9a6kgOZrLJ51gwKL" Name="Receive via Client" Kind="InputPin" IsHidden="true" />
+            <Pin Id="AIpJmo8LIoONCwB07nCImY" Name="Client Enabled" Kind="InputPin" />
+            <Pin Id="LDwMgey1t5HORySuCa4oZC" Name="Direction" Kind="InputPin" />
+            <Pin Id="LUmuocmMo2NMwoVHTovYzK" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="KyA3ebQOsm3NpdFb4TmeYE" Name="Server Socket Open" Kind="OutputPin" />
+            <Pin Id="AUpkSxWp65WPSqGgpMZaQv" Name="Client Socket Open" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="898,181,125,19" Id="HJJAYvwxWzFNYKNrGstQWK">
+            <p:NodeReference LastCategoryFullName="IO.Midi" LastDependency="VL.IO.Midi.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="MIDI" />
+            </p:NodeReference>
+            <Pin Id="AkfvYSUV5KjNzbr5HaGOAe" Name="Show Binding Column" Kind="InputPin" IsHidden="true" />
+            <Pin Id="SnbBH4Ohnz5QD5ir0ipSqJ" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="DeEVlltFKN2NU7Fg43xOtr" Name="Model" Kind="InputPin" IsHidden="true">
+              <p:DefaultValue r:Type="Spread [Collections]&lt;BindingModel [IO.Midi]&gt;" xmlns:r="reflection" r:Version="2">
+                <Item Channel_Path="MyValue" Direction="SendAndReceive" />
+              </p:DefaultValue>
+            </Pin>
+            <Pin Id="LEwv4MfWtiROmbUcvkP1pk" Name="Nickname" Kind="InputPin" />
+            <Pin Id="SOeix9wHmqUN2ZC9TsrAJe" Name="Input Device" Kind="InputPin" />
+            <Pin Id="E29mDMqvJj6LD2F2EYjcF8" Name="Input Enabled" Kind="InputPin" />
+            <Pin Id="E2PQHG3U4rxLVMUBXBhts0" Name="Output Device" Kind="InputPin" />
+            <Pin Id="A0lrOfkKT1VMuX1rfw4hnR" Name="Output Enabled" Kind="InputPin" />
+            <Pin Id="RRbcA3P1n62MICc9gyUmlL" Name="Direction" Kind="InputPin" />
+            <Pin Id="KYX01hF0pLsLYdZIiBHOYz" Name="Log" Kind="InputPin" />
+            <Pin Id="HUkekROBL3QPGEMPjhMaQ0" Name="State Output" Kind="StateOutputPin" />
+            <Pin Id="JowC3VqfDesO7L6C0RWOPi" Name="Input Connection" Kind="OutputPin" />
+            <Pin Id="JORRW0lCAjILbqSqcvWBNI" Name="Output Connection" Kind="OutputPin" />
+            <Pin Id="PxvCrPnLrsBQb7KNrP2s9o" Name="Output" Kind="OutputPin" />
+            <Pin Id="RZUTjGemxy5OkiIkRfpHaK" Name="Feedback Protection" Kind="InputPin" IsHidden="true" />
+          </Node>
         </Canvas>
         <Patch Id="CPjqaGO113jPocorJ7hdE9" Name="Create" />
         <Patch Id="F4CiIuwbKLVQCMVruCdLWc" Name="Update" />
@@ -93,4 +143,5 @@
   </Patch>
   <DocumentDependency Id="PNsHtf5OOMhL3O0LycbafF" Location="./XmlModule.vl" />
   <NugetDependency Id="RSIsZsOxg8sNE5KycLoDal" Location="VL.IO.OSC" Version="2.0.4" />
+  <NugetDependency Id="Hk87iOjMPtSMeFyS7HsrXo" Location="VL.IO.Midi" Version="2.0.4" />
 </Document>
