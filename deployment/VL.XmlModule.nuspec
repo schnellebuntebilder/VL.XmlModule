@@ -6,14 +6,14 @@
 
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
-    <id>VL.NewLibrary.Template</id>
+    <id>VL.XmlModule</id>
     <!-- For more about versions see: https://thegraybook.vvvv.org/reference/extending/publishing.html#version -->
     <version>0.0.1-alpha</version>
-    <title>VL.NewLibrary.Template</title>
+    <title>VL.XmlModule</title>
     <!-- Provide authors, projectUrl (website) and repository url--> 
-    <authors></authors>
+    <authors>sebl</authors>
     <projectUrl></projectUrl>
-    <repository type="git" url="https://github.com/vvvv/VL.NewLibrary.Template.git" />
+    <repository type="git" url="https://github.com/schnellebuntebilder/VL.XmlModulee.git" />
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <!-- Provide description and tags-->
     <description></description>
