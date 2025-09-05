@@ -29,30 +29,25 @@
             <Pin Id="QAifjrmO9a1LPajpHFxC1s" Name="Output" Kind="OutputPin" />
             <Pin Id="VnewIw0pQQ2NQAQDk8YXrr" Name="Direction" Kind="InputPin" />
           </Node>
-          <Node Bounds="440,320,80,19" Id="IgD18y1gXN4PJUH00GUt8d">
+          <Node Bounds="531,299,80,19" Id="BPMafNHw9JVL1K5tN4TphL">
             <p:NodeReference LastCategoryFullName="Application" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="PublicChannel" />
             </p:NodeReference>
-            <Pin Id="IkovjL2zPOBQBbHAbKWHNb" Name="Node Context" Kind="InputPin" IsHidden="true" />
-            <Pin Id="OnmMSQHtWBpLSkvZ0HcEjK" Name="Path" Kind="InputPin" />
-            <Pin Id="KYccyOnrBByOpAWMUmt8vt" Name="Value" Kind="InputPin" />
-            <Pin Id="Ef6PPrh91zPQLgbbnr3osk" Name="Path" Kind="OutputPin" IsHidden="true" />
-            <Pin Id="DG1E64ZRi6rNCUQXNL1oIx" Name="Output" Kind="OutputPin" />
-            <Pin Id="SHpf46lnW0EPGeu1vdbmeW" Name="Value" Kind="OutputPin" />
-            <Pin Id="UVnhSWccLhCLpu3UTYa3A5" Name="Author" Kind="InputPin" IsHidden="true" />
+            <Pin Id="SVwKigjF2xPM6GZgrmKVAH" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="VfWM9AA4CwdO7fXVAntyWF" Name="Path" Kind="InputPin" />
+            <Pin Id="CpcRIXoUL0GMzJWZJU7eUG" Name="Value" Kind="InputPin" />
+            <Pin Id="Qac8schkMCuLs9Z1MXWuXr" Name="Path" Kind="OutputPin" IsHidden="true" />
+            <Pin Id="S44yT6s361BNYLD80xrDu6" Name="Output" Kind="OutputPin" />
+            <Pin Id="OS8YAsfZ5TfPASsIkSRcBV" Name="Value" Kind="OutputPin" />
+            <Pin Id="RhtQzIPbocPMJMkD5ze9YR" Name="Author" Kind="InputPin" IsHidden="true" />
           </Node>
-          <Pad Id="QBThacoQxhKLgwNYXcjZOj" Comment="Path" Bounds="442,269,91,15" ShowValueBox="true" isIOBox="true" Value="MyValue">
+          <Pad Id="AjN9rltx5OYMLKS8FesWu8" Comment="" Bounds="533,281,119,15" ShowValueBox="true" isIOBox="true" Value="MyValue">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="FxqfkeyeQt0Nvcyywv30z1" Comment="" Bounds="517,369,35,15" ShowValueBox="true" isIOBox="true">
-            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="ImmutableTypeFlag" Name="Float32" />
-            </p:TypeAnnotation>
-          </Pad>
-          <Pad Id="KQtHgMt7XD1NBN068VpuaI" Comment="" Bounds="517,299,35,15" ShowValueBox="true" isIOBox="true" Value="4">
+          <Pad Id="AA6w3vAFGKPOXBnlwc6F6V" Bounds="608,337,35,15" ShowValueBox="true" isIOBox="true">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
@@ -64,9 +59,8 @@
           <Fragment Id="QnPcOd9JcelQYXBWyDr9LW" Patch="CPjqaGO113jPocorJ7hdE9" Enabled="true" />
           <Fragment Id="SfdQURNO3h0MgIRVlEPkmP" Patch="F4CiIuwbKLVQCMVruCdLWc" Enabled="true" />
         </ProcessDefinition>
-        <Link Id="InojJq4P21WNxTzza83RIN" Ids="QBThacoQxhKLgwNYXcjZOj,OnmMSQHtWBpLSkvZ0HcEjK" />
-        <Link Id="IxDCIuDpYXoNeOeFEz6PB4" Ids="SHpf46lnW0EPGeu1vdbmeW,FxqfkeyeQt0Nvcyywv30z1" />
-        <Link Id="GsPPx5hNZ8UOTwVAdB58So" Ids="KQtHgMt7XD1NBN068VpuaI,KYccyOnrBByOpAWMUmt8vt" />
+        <Link Id="D9P7GnsawKLP40beAUi19t" Ids="AjN9rltx5OYMLKS8FesWu8,VfWM9AA4CwdO7fXVAntyWF" />
+        <Link Id="NFNfQP8dAw1OvytTgtt16Y" Ids="OS8YAsfZ5TfPASsIkSRcBV,AA6w3vAFGKPOXBnlwc6F6V" />
       </Patch>
     </Node>
   </Patch>
