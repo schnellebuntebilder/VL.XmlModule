@@ -1288,7 +1288,7 @@
               <Patch Id="VR66xZvMrL7PECBkbRpSHE" ManuallySortedPins="true">
                 <Patch Id="R0Ozw8IFcnTQJaQ1lujBGm" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="EjxBULh34YiQHv6UqD06R3" Name="Then" ManuallySortedPins="true" />
-                <Node Bounds="917,795,328,376" Id="UB13jN5YLPRPiylRT4FHNF">
+                <Node Bounds="917,795,328,484" Id="UB13jN5YLPRPiylRT4FHNF">
                   <p:NodeReference LastCategoryFullName="Reactive.Channel" LastDependency="VL.CoreLib.vl">
                     <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                     <CategoryReference Kind="MutableInterfaceType" Name="Channel" />
@@ -1302,7 +1302,7 @@
                     <Patch Id="Jjp7kO9aEi8L3UNTbSbJKc" Name="Create" ManuallySortedPins="true" />
                     <Patch Id="RT2rEn8rvvmPRSBLvlsU2O" Name="Update" ManuallySortedPins="true" />
                     <Patch Id="MDhmHsc6hjWN9ag3PNv1nO" Name="Dispose" />
-                    <Node Bounds="940,970,293,181" Id="Mosh6MhPeboPX09oEkKBtJ">
+                    <Node Bounds="940,970,293,289" Id="Mosh6MhPeboPX09oEkKBtJ">
                       <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                         <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                         <CategoryReference Kind="Category" Name="Primitive" />
@@ -1338,29 +1338,65 @@
                           <Pin Id="VRiVqO75fO6O6A0DYWX8Zh" Name="Exception" Kind="InputPin" IsHidden="true" />
                           <Pin Id="MOudXlpSJa3LNkxDeFoSkC" Name="Apply" Kind="InputPin" />
                         </Node>
-                        <Node Bounds="977,1051,86,80" Id="G79crnCWoy2QMCBEgTwAVe">
-                          <p:NodeReference LastCategoryFullName="System.Threading" LastDependency="Builtin">
-                            <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
-                            <Choice Kind="ApplicationStatefulRegion" Name="Lock (Inter-process)" />
+                        <ControlPoint Id="QQN5ClzHs6yLBPEqs9QCny" Bounds="1022,1019" />
+                        <Node Bounds="999,1220,105,19" Id="Q6rdW9sFfkXNrNDDVXQx0r">
+                          <p:NodeReference LastCategoryFullName="System.Logging" LastDependency="VL.CoreLib.vl">
+                            <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                            <CategoryReference Kind="Category" Name="Logging" NeedsToBeDirectParent="true" />
+                            <Choice Kind="ProcessAppFlag" Name="Log" />
                           </p:NodeReference>
-                          <Pin Id="JAExUlz85dpQTlFTkTlqVX" Name="Key" Kind="InputPin" />
-                          <Pin Id="ChY5tCftP1vNw2tnoMf6Hg" Name="Timeout" Kind="InputPin" />
-                          <Patch Id="RddW3ycSXqTNZfqTjWWpRM" ManuallySortedPins="true">
-                            <Patch Id="SXLQSeQK6kwNwKFFzXpKse" Name="Create" ManuallySortedPins="true" />
-                            <Patch Id="S4ZBXxv8tq7Pm6FCxk7TJK" Name="Update" ManuallySortedPins="true" />
-                            <Node Bounds="989,1083,62,19" Id="QQv3BUkKxeTL3b1MGNKm07">
-                              <p:NodeReference LastCategoryFullName="System.XML" LastDependency="VL.CoreLib.vl">
-                                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                                <Choice Kind="ProcessAppFlag" Name="XMLWriter" />
+                          <Pin Id="PpPXhAn0bRnMfMTfhBSSDl" Name="Node Context" Kind="InputPin" IsHidden="true" />
+                          <Pin Id="Lm6pXdEq69QNfBC0mTDxSd" Name="Message" Kind="InputPin" DefaultValue="Error Reading File ({0}): {1}" />
+                          <Pin Id="Qp42pxpEsITOEiVx9hLWpO" Name="Log Level" Kind="InputPin" DefaultValue="Warning" />
+                          <Pin Id="D3BfMFsefpqPHsttlsV583" Name="Event Id" Kind="InputPin" IsHidden="true" />
+                          <Pin Id="CMVlzCA041wMfGsHaJhyIY" Name="Argument" Kind="InputPin" />
+                          <Pin Id="QHS4Ef6OT4gP8TkryKzsQm" Name="Argument 2" Kind="InputPin" />
+                          <Pin Id="VIbmYllP32YOGgs3OZHf35" Name="Category" Kind="InputPin" />
+                          <Pin Id="A2i215FKxmxPoJqIMwhWA3" Name="Exception" Kind="InputPin" IsHidden="true" />
+                          <Pin Id="BL4KKpn2RMCO7fPX3I77M1" Name="Apply" Kind="InputPin" />
+                        </Node>
+                        <Node Bounds="971,1040,135,120" Id="FvSkaV3HgXlOPQabBK9i6j">
+                          <p:NodeReference LastCategoryFullName="Control" LastDependency="VL.CoreLib.vl">
+                            <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
+                            <Choice Kind="ProcessAppFlag" Name="Try" />
+                          </p:NodeReference>
+                          <Pin Id="CXDpmtVuiKNPmbo8lFMD2g" Name="Node Context" Kind="InputPin" IsHidden="true" />
+                          <Pin Id="JXkEKCFZCSYMBOKYBn7b7F" Name="User Exceptions Channel" Kind="InputPin" IsHidden="true" />
+                          <Pin Id="FahzDrdUiPUM0Y2Zn9XufG" Name="Stick To Last Valid Outputs" Kind="InputPin" />
+                          <Pin Id="EaNCBcsYkcoQHRT7yz8Blb" Name="Reset Region On Failure" Kind="InputPin" />
+                          <Pin Id="F79cXCdFLgsO0d7YRd9Ph5" Name="Warn" Kind="InputPin" />
+                          <Pin Id="DlQUPa31p7PP1cChryBQWZ" Name="Success" Kind="OutputPin" />
+                          <Pin Id="IWdeuQtu6zeOx8NAvMpPi1" Name="Failure" Kind="OutputPin" />
+                          <Pin Id="UNaAkdKwfaHMtvHGUSeFwV" Name="Error Message" Kind="OutputPin" />
+                          <Pin Id="TGmKXu3BDgMLKGF3aWwXC7" Name="Exceptions" Kind="OutputPin" />
+                          <Patch Id="CtY9e5b6IzHNDdIE2l44cV" ManuallySortedPins="true">
+                            <Patch Id="FsgHGICIvfxK9ngZmwPFhe" Name="Create" ManuallySortedPins="true" />
+                            <Patch Id="MkkVVp1biO8P7jNRrSy84Y" Name="Update" ManuallySortedPins="true" />
+                            <Patch Id="Cg1GOLsGE32NJg5noYRCAw" Name="Dispose" ManuallySortedPins="true" />
+                            <Node Bounds="1008,1060,86,80" Id="G79crnCWoy2QMCBEgTwAVe">
+                              <p:NodeReference LastCategoryFullName="System.Threading" LastDependency="Builtin">
+                                <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
+                                <Choice Kind="ApplicationStatefulRegion" Name="Lock (Inter-process)" />
                               </p:NodeReference>
-                              <Pin Id="FX0kD22jvykLsZ5PLcC5vw" Name="Node Context" Kind="InputPin" IsHidden="true" />
-                              <Pin Id="EawxuJJxFNqLDHEv76NZrs" Name="File Path" Kind="InputPin" />
-                              <Pin Id="Oj4SiGfT3aJOXnlMieY2lq" Name="Data" Kind="InputPin" />
-                              <Pin Id="CEnGIj8c41MM6WwSPPatBc" Name="Write" Kind="InputPin" DefaultValue="True" />
+                              <Pin Id="JAExUlz85dpQTlFTkTlqVX" Name="Key" Kind="InputPin" />
+                              <Pin Id="ChY5tCftP1vNw2tnoMf6Hg" Name="Timeout" Kind="InputPin" />
+                              <Patch Id="RddW3ycSXqTNZfqTjWWpRM" ManuallySortedPins="true">
+                                <Patch Id="SXLQSeQK6kwNwKFFzXpKse" Name="Create" ManuallySortedPins="true" />
+                                <Patch Id="S4ZBXxv8tq7Pm6FCxk7TJK" Name="Update" ManuallySortedPins="true" />
+                                <Node Bounds="1020,1092,62,19" Id="QQv3BUkKxeTL3b1MGNKm07">
+                                  <p:NodeReference LastCategoryFullName="System.XML" LastDependency="VL.CoreLib.vl">
+                                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                                    <Choice Kind="ProcessAppFlag" Name="XMLWriter" />
+                                  </p:NodeReference>
+                                  <Pin Id="FX0kD22jvykLsZ5PLcC5vw" Name="Node Context" Kind="InputPin" IsHidden="true" />
+                                  <Pin Id="EawxuJJxFNqLDHEv76NZrs" Name="File Path" Kind="InputPin" />
+                                  <Pin Id="Oj4SiGfT3aJOXnlMieY2lq" Name="Data" Kind="InputPin" />
+                                  <Pin Id="CEnGIj8c41MM6WwSPPatBc" Name="Write" Kind="InputPin" DefaultValue="True" />
+                                </Node>
+                              </Patch>
                             </Node>
                           </Patch>
                         </Node>
-                        <ControlPoint Id="QQN5ClzHs6yLBPEqs9QCny" Bounds="991,1037" />
                       </Patch>
                     </Node>
                     <Node Bounds="940,873,43,19" Id="QXpLQFiKAXAQA3AGvBHnce">
@@ -1466,6 +1502,7 @@
                     <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
                   </p:ValueBoxSettings>
                 </Pad>
+                <ControlPoint Id="DsacDftMZfMLeQkppKkfHo" Bounds="825,1109" />
               </Patch>
               <ControlPoint Id="HvQ4cjIqX2ONrqtg0W9AtF" Bounds="803,1344" Alignment="Bottom" />
               <ControlPoint Id="MCavQZakpkTQEo6t0ZVNp7" Bounds="1252,1344" Alignment="Bottom" />
@@ -2030,6 +2067,9 @@
           <Link Id="U9XPKLtHkvXNuthdGIoMYg" Ids="EUoTUqzS24EMNZLkmc5yX7,O3GbL5p3wOwOOn0vc2cUBd" />
           <Link Id="Ed1RyE9GSs6MXC49Nqh6DA" Ids="BrLY8qGF3zUMIiCcbLmrtc,DtSYoKRFs5fP2Tj9lQefPp" />
           <Link Id="TfUVWt3YOEAPT4kcXzL3W3" Ids="GMXTNheCfJrOGMXjSSsxt6,TyKxcAhgC4lMBKLNWAO3Gq" />
+          <Link Id="B22O900VMwmQMtQhIp8iAD" Ids="GD5Xkuo2PvWO3MXKsIrD8V,DsacDftMZfMLeQkppKkfHo,CMVlzCA041wMfGsHaJhyIY" />
+          <Link Id="VDeSwsNCAAMNxY8FOwzE9G" Ids="UNaAkdKwfaHMtvHGUSeFwV,QHS4Ef6OT4gP8TkryKzsQm" />
+          <Link Id="A5LKWuRYZ5HP5xe0lC76Df" Ids="IWdeuQtu6zeOx8NAvMpPi1,BL4KKpn2RMCO7fPX3I77M1" />
         </Patch>
       </Node>
       <!--
