@@ -22,7 +22,7 @@
             </p:NodeReference>
             <Pin Id="FP9oGE0DzuzQIaykYITUT0" Name="Model" Kind="InputPin">
               <p:DefaultValue r:Type="Spread [Collections]&lt;XmlBindingModel [XmlModule]&gt;" xmlns:r="reflection" r:Version="2">
-                <Item Channel_Path="MyValue" />
+                <Item Channel_Path="MyValue" Direction="SendAndReceive" FilePath="config.xml" XPath="/config/tab[5]/VolumeCommand[1]" />
               </p:DefaultValue>
             </Pin>
             <Pin Id="MWCQsua7YkmMMkAupyMcHj" Name="Node Context" Kind="InputPin" IsHidden="true" />
@@ -52,14 +52,6 @@
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="811,340,59,19" Id="F5OUWBJPn6hQU8caDYc6BA">
-            <p:NodeReference LastCategoryFullName="System.Xml" LastDependency="XmlModule.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="Xml-Test" />
-            </p:NodeReference>
-            <Pin Id="KAixNSulkvaMf1btkQ5dFt" Name="Node Context" Kind="InputPin" IsHidden="true" />
-            <Pin Id="JKvPuZrDnqAP0wfEaHuvL3" Name="Update" Kind="ApplyPin" />
-          </Node>
         </Canvas>
         <Patch Id="CPjqaGO113jPocorJ7hdE9" Name="Create" />
         <Patch Id="F4CiIuwbKLVQCMVruCdLWc" Name="Update" />

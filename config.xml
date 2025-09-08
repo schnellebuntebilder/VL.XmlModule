@@ -1,6 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE ROOT PUBLIC "" ""[]>
 <config name="Unibonn-1" w="420" h="500" port="51305" opacity="0.9" timeout="50">
   <tab name="vvvv">
-    <WatchdogCommand name="Unibonn.exe" w="300" delayPatch="10" delayScript="10" delayCheck="10" singleinstance="true" executable="F:\projects\unibonn\export\unibonn-1\unibonn-1.exe" autostart="false" watchfile="vvvv.watchfile">63</WatchdogCommand>
+    <WatchdogCommand name="Unibonn.exe" w="300" delayPatch="10" delayScript="10" delayCheck="10" singleinstance="true" executable="F:\projects\unibonn\export\unibonn-1\unibonn-1.exe" autostart="false" watchfile="vvvv.watchfile">1.23</WatchdogCommand>
   </tab>
   <tab name="Notepad">
     <WatchdogCommand name="Notepad.exe" w="300" delayPatch="5" delayScript="5" delayCheck="5" singleinstance="false" executable="C:\Windows\System32\notepad.exe" autostart="false">118</WatchdogCommand>
@@ -12,7 +14,7 @@
     <HeartBeatCommand name="edge" w="300" h="40" target="192.168.30.60" port="51306" mode="UDP">5</HeartBeatCommand>
   </tab>
   <tab name="Parameters">
-    <VolumeCommand name="volume" w="200" h="120" orientation="Horizontal" default="0.5">0.45</VolumeCommand>
+    <VolumeCommand name="volume" w="200" h="120" orientation="Horizontal" default="0.5">1.25</VolumeCommand>
   </tab>
   <tab name="Power">
     <ShutDownCommand name="shutdown" w="300" h="100" delay="10">2024-08-06T18:30:23.743243+02:00</ShutDownCommand>
