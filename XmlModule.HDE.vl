@@ -73,7 +73,7 @@
             <ControlPoint Id="RHm1PexQ7BSMNziaoEznOY" Bounds="448,401" />
             <ControlPoint Id="SbJG1itwJ9RQL2veJye5yh" Bounds="437,248" />
             <Pad Id="VudtNdAEvKlPBLsadrmBHU" SlotId="SUs6TMjm9AQLnyqQ6Lu3K3" Bounds="437,296" />
-            <Pad Id="UoGx1K9hSHGQUyVVORcosj" SlotId="SUs6TMjm9AQLnyqQ6Lu3K3" Bounds="468,501" />
+            <Pad Id="UoGx1K9hSHGQUyVVORcosj" SlotId="SUs6TMjm9AQLnyqQ6Lu3K3" Bounds="488,501" />
             <ControlPoint Id="SVYaOkalDb2MszzrNdVxAE" Bounds="508,430" />
             <ControlPoint Id="LPT8p1jIaBWPR9WwbWzicK" Bounds="298,513" />
             <ControlPoint Id="Rd6ZT7GtkYVOBYaT4WllKk" Bounds="807,641" />
@@ -124,8 +124,8 @@
               <Pin Id="TompwyNigPkLl5DlU25Gp9" Name="Output" Kind="StateOutputPin" />
             </Node>
             <ControlPoint Id="T7osge48TIvMlfbI8o2GLN" Bounds="437,351" />
-            <ControlPoint Id="O2KCOAvJYweOuj5sZox4Rc" Bounds="445,950" />
-            <ControlPoint Id="RWc3lCtKW1fLjTYL1JLAxv" Bounds="494,980" />
+            <ControlPoint Id="O2KCOAvJYweOuj5sZox4Rc" Bounds="461,881" />
+            <ControlPoint Id="RWc3lCtKW1fLjTYL1JLAxv" Bounds="501,990" />
             <ControlPoint Id="U4Txmxfl9HAN6ft9WwC5KO" Bounds="79,840" />
             <Node Bounds="77,930,65,19" Id="Iyl4Kunk5zBMaNGO8XZkgl">
               <p:NodeReference LastCategoryFullName="Primitive.Object" LastDependency="VL.CoreLib.vl">
@@ -136,7 +136,7 @@
               <Pin Id="MWMNXWn4MkyMUCGpnxfCff" Name="Result" Kind="OutputPin" />
               <Pin Id="MQoVpfbYnLqNMPpHdDGWGp" Name="Not Assigned" Kind="OutputPin" />
             </Node>
-            <ControlPoint Id="UDv9auHrsZ2QHifpsMHQm5" Bounds="421,930" />
+            <ControlPoint Id="UDv9auHrsZ2QHifpsMHQm5" Bounds="441,851" />
             <Node Bounds="528,1170,58,26" Id="J81XNcgD4JSMhdL16i9Q8G">
               <p:NodeReference LastCategoryFullName="System.Console" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -191,7 +191,7 @@
               <ControlPoint Id="J0SjNWAOy1cLTIwHaEoMDi" Bounds="258,1003" Name="s" Alignment="Top" />
               <ControlPoint Id="Mbzzo6pFhdUPm4XrJOeHlm" Bounds="258,1101" Name="s" Alignment="Bottom" />
             </Node>
-            <Pad Id="EWAuvqrH6rEOsyL17uIlcG" SlotId="SUs6TMjm9AQLnyqQ6Lu3K3" Bounds="292,804" />
+            <Pad Id="EWAuvqrH6rEOsyL17uIlcG" SlotId="SUs6TMjm9AQLnyqQ6Lu3K3" Bounds="279,810" />
             <Node Bounds="277,850,75,26" Id="CYhSsfIoEw3LjyxRbfd2hZ">
               <p:NodeReference LastCategoryFullName="Main.XmlModule" LastDependency="XmlModule.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -282,7 +282,7 @@
               <Pin Id="N0UAtjzzux8LIO3fw7xwe5" Name="Item" Kind="InputPin" />
               <Pin Id="DSfMrNp54KUNoyn7zqgH3Y" Name="Output" Kind="OutputPin" />
             </Node>
-            <Node Bounds="419,1020,78,26" Id="MzwLpnkCqvyN6VMnbgmr2d">
+            <Node Bounds="419,1020,85,26" Id="MzwLpnkCqvyN6VMnbgmr2d">
               <p:NodeReference LastCategoryFullName="Main.XmlBindingModel" LastDependency="XmlModule.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <CategoryReference Kind="RecordType" Name="XmlBindingModel" />
@@ -308,7 +308,7 @@
               <Pin Id="LcoQWMS1q6cQP8LBJYHqR6" Name="Apply" Kind="InputPin" />
               <Pin Id="TrJQzULlrcKNlqaxJoqkgm" Name="Output" Kind="StateOutputPin" />
             </Node>
-            <Pad Id="NDVkgA6aqDROYX0q26F66A" Comment="Got Created Via Node" Bounds="540,1020,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+            <Pad Id="NDVkgA6aqDROYX0q26F66A" Comment="Got Created Via Node" Bounds="481,931,35,35" ShowValueBox="true" isIOBox="true" Value="False">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
               </p:TypeAnnotation>
@@ -316,6 +316,7 @@
                 <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
               </p:ValueBoxSettings>
             </Pad>
+            <ControlPoint Id="JJiykxYDbnpMQSbwC2ZrYZ" Bounds="421,820" />
           </Canvas>
           <ProcessDefinition Id="Su8j5D8Yfm0Oygk0yMVRIQ" IsHidden="true">
             <Fragment Id="HIyFMtcdjdEP809ujiTQbN" Patch="AUDbm9UTVDtPsTsx61NPpu" Enabled="true" />
@@ -365,6 +366,7 @@
           <Link Id="My8KIDAajYhM65tGGckKAN" Ids="VudtNdAEvKlPBLsadrmBHU,T7osge48TIvMlfbI8o2GLN" />
           <Patch Id="IJ57TkoH4vCPMaRAZRAAh7" Name="AddOrEdit" ParticipatingElements="J81XNcgD4JSMhdL16i9Q8G">
             <Pin Id="VoqcovXzDeBMqRY2lBMdz0" MergeId="2691" Name="Initial Binding" Kind="InputPin" Bounds="515,839" />
+            <Pin Id="Bx5N6TSrkJdPVmiHyICLpM" Name="XPath" Kind="InputPin" />
             <Pin Id="HmV6Gt1dFcpNJ08JrgxMBb" Name="FilePath" Kind="InputPin" />
             <Pin Id="BoSPdhivcKdO4sehAs0pHe" MergeId="2687" Name="Binding Type" Kind="InputPin" />
             <Pin Id="FORJybFIjhOLguZxV6xfQR" MergeId="2689" Name="Channel Path" Kind="InputPin" Bounds="1339,916" />
@@ -407,6 +409,8 @@
           <Link Id="UJls4RsRsrdLBmyua2jwxP" Ids="DSfMrNp54KUNoyn7zqgH3Y,O33AOhuY5owOqwJEVZHjgb" />
           <Link Id="KZSAseTL6BPMi6iAGaZoaC" Ids="NkPZgscv8lgL30pzEPsoBe,NgYb5OZFxpmOItjeqsB4nl" />
           <Link Id="L5fsIlDyJM6OReHW6Px2E1" Ids="NDVkgA6aqDROYX0q26F66A,SmAT3pf7vy5NLa7zWo9VWW" />
+          <Link Id="QPuy7BXqr5NPu1INPJqrP1" Ids="JJiykxYDbnpMQSbwC2ZrYZ,VPuLUoPomjHMiFs4azFp4r" />
+          <Link Id="I1yU3SeQfD5NiR5gxMXkEX" Ids="Bx5N6TSrkJdPVmiHyICLpM,JJiykxYDbnpMQSbwC2ZrYZ" IsHidden="true" />
         </Patch>
       </Node>
       <!--
