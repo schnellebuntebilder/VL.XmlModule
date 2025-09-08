@@ -558,7 +558,7 @@
                   <Pin Id="U4fNEEHBVGYMiOGEfQPzjh" Name="Value" Kind="OutputPin" />
                   <Pin Id="B7Wrir9Q8SILkItgMtClOQ" Name="Author" Kind="InputPin" IsHidden="true" />
                 </Node>
-                <Pad Id="TjKq8bgbmgtLiwdMYCWtkB" Comment="Label" Bounds="651,600,49,15" ShowValueBox="true" isIOBox="true" Value="Direction">
+                <Pad Id="TjKq8bgbmgtLiwdMYCWtkB" Comment="Label" Bounds="651,600,108,15" ShowValueBox="true" isIOBox="true" Value="Direction">
                   <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                     <Choice Kind="TypeFlag" Name="String" />
                   </p:TypeAnnotation>

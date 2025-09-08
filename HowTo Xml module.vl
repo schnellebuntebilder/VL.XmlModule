@@ -21,15 +21,15 @@
               <Choice Kind="ProcessAppFlag" Name="XmlModule" />
             </p:NodeReference>
             <Pin Id="FP9oGE0DzuzQIaykYITUT0" Name="Model" Kind="InputPin">
-              <p:DefaultValue r:Type="Spread [Collections]&lt;XmlBindingModel [Main]&gt;" xmlns:r="reflection" r:Version="2">
-                <Item Channel_Path="MyValue" Direction="SendAndReceive" FilePath="test.xml" />
+              <p:DefaultValue r:Type="Spread [Collections]&lt;XmlBindingModel [XmlModule]&gt;" xmlns:r="reflection" r:Version="2">
+                <Item Channel_Path="MyValue" />
               </p:DefaultValue>
             </Pin>
             <Pin Id="MWCQsua7YkmMMkAupyMcHj" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="QAifjrmO9a1LPajpHFxC1s" Name="Output" Kind="OutputPin" />
             <Pin Id="VnewIw0pQQ2NQAQDk8YXrr" Name="Direction" Kind="InputPin" />
           </Node>
-          <Node Bounds="531,299,80,19" Id="BPMafNHw9JVL1K5tN4TphL">
+          <Node Bounds="327,330,80,19" Id="BPMafNHw9JVL1K5tN4TphL">
             <p:NodeReference LastCategoryFullName="Application" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="PublicChannel" />
@@ -42,16 +42,24 @@
             <Pin Id="OS8YAsfZ5TfPASsIkSRcBV" Name="Value" Kind="OutputPin" />
             <Pin Id="RhtQzIPbocPMJMkD5ze9YR" Name="Author" Kind="InputPin" IsHidden="true" />
           </Node>
-          <Pad Id="AjN9rltx5OYMLKS8FesWu8" Comment="" Bounds="533,281,119,15" ShowValueBox="true" isIOBox="true" Value="MyValue">
+          <Pad Id="AjN9rltx5OYMLKS8FesWu8" Comment="" Bounds="329,312,119,15" ShowValueBox="true" isIOBox="true" Value="MyValue">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="AA6w3vAFGKPOXBnlwc6F6V" Bounds="608,337,35,15" ShowValueBox="true" isIOBox="true">
+          <Pad Id="AA6w3vAFGKPOXBnlwc6F6V" Bounds="404,368,35,15" ShowValueBox="true" isIOBox="true">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
+          <Node Bounds="811,340,59,19" Id="F5OUWBJPn6hQU8caDYc6BA">
+            <p:NodeReference LastCategoryFullName="System.Xml" LastDependency="XmlModule.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Xml-Test" />
+            </p:NodeReference>
+            <Pin Id="KAixNSulkvaMf1btkQ5dFt" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="JKvPuZrDnqAP0wfEaHuvL3" Name="Update" Kind="ApplyPin" />
+          </Node>
         </Canvas>
         <Patch Id="CPjqaGO113jPocorJ7hdE9" Name="Create" />
         <Patch Id="F4CiIuwbKLVQCMVruCdLWc" Name="Update" />
@@ -65,4 +73,6 @@
     </Node>
   </Patch>
   <DocumentDependency Id="PNsHtf5OOMhL3O0LycbafF" Location="./XmlModule.vl" />
+  <PlatformDependency Id="JUNOtPWZ9BYQd5CfJR5ZWH" Location="System.Xml" />
+  <PlatformDependency Id="BkajitqQHTMPSBTCMmDafb" Location="System.Xml.XDocument" />
 </Document>
