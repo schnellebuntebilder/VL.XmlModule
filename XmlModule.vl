@@ -1351,7 +1351,7 @@
               <Patch Id="VR66xZvMrL7PECBkbRpSHE" ManuallySortedPins="true">
                 <Patch Id="R0Ozw8IFcnTQJaQ1lujBGm" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="EjxBULh34YiQHv6UqD06R3" Name="Then" ManuallySortedPins="true" />
-                <Node Bounds="918,795,327,743" Id="UB13jN5YLPRPiylRT4FHNF">
+                <Node Bounds="917,795,327,743" Id="UB13jN5YLPRPiylRT4FHNF">
                   <p:NodeReference LastCategoryFullName="Reactive.Channel" LastDependency="VL.CoreLib.vl">
                     <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                     <CategoryReference Kind="MutableInterfaceType" Name="Channel" />
@@ -1455,7 +1455,7 @@
                                   <Pin Id="MRXhM7pXRAQLKRd1dk40JH" Name="Read" Kind="InputPin" DefaultValue="True" />
                                   <Pin Id="PDRZf7uzvWPMXDREQfNzVK" Name="Output" Kind="OutputPin" />
                                 </Node>
-                                <Node Bounds="1048,1190,81,19" Id="PL3o2Ic8nBUPltTFIWe1jQ">
+                                <Node Bounds="1048,1210,81,19" Id="PL3o2Ic8nBUPltTFIWe1jQ">
                                   <p:NodeReference LastCategoryFullName="System.Xml" LastDependency="XmlModule.vl">
                                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                                     <Choice Kind="OperationCallFlag" Name="SetXPathValue" />
@@ -2436,7 +2436,7 @@
     ************************ Xml-Test ************************
 
 -->
-        <Node Name="Xml-Test" Bounds="1197,580" Id="DGHIxN43zQsK9vetz1SObk">
+        <Node Name="Xml-Test" Bounds="703,700" Id="DGHIxN43zQsK9vetz1SObk">
           <p:NodeReference>
             <Choice Kind="ContainerDefinition" />
           </p:NodeReference>
@@ -2484,7 +2484,7 @@
                   <p:showentryindex p:Type="Boolean">true</p:showentryindex>
                 </p:ValueBoxSettings>
               </Pad>
-              <Pad Id="EvSKbVbCk9rNobP28gBKud" Comment="Collect Attributes" Bounds="947,264,35,35" ShowValueBox="true" isIOBox="true" Value="True">
+              <Pad Id="EvSKbVbCk9rNobP28gBKud" Comment="Collect Attributes" Bounds="947,264,35,35" ShowValueBox="true" isIOBox="true" Value="False">
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
                 </p:TypeAnnotation>

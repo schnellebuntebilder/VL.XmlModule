@@ -14,7 +14,7 @@
     <HeartBeatCommand name="edge" w="300" h="40" target="192.168.30.60" port="51306" mode="UDP">5</HeartBeatCommand>
   </tab>
   <tab name="Parameters">
-    <VolumeCommand name="volume" w="200" h="120" orientation="Horizontal" default="0.5">1.25</VolumeCommand>
+    <VolumeCommand name="volume" w="200" h="120" orientation="Horizontal" default="0.5">1.23</VolumeCommand>
   </tab>
   <tab name="Power">
     <ShutDownCommand name="shutdown" w="300" h="100" delay="10">2024-08-06T18:30:23.743243+02:00</ShutDownCommand>
