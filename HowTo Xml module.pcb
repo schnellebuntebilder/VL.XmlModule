@@ -16,8 +16,8 @@
   </Views>
   <Visible_Columns>
     <Item>Name</Item>
-    <Item>Value</Item>
     <Item>Bindings</Item>
+    <Item>Value</Item>
   </Visible_Columns>
   <Visible_Panels>
     <Item>Main Panel</Item>
