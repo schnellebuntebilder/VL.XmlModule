@@ -92,6 +92,7 @@
                 <Item Channel_Path="MyTime" Direction="Receive" XPath="/config/tab[6]/ShutDownCommand[1]" />
                 <Item Channel_Path="MyString" Direction="SendAndReceive" XPath="/config/@name" />
                 <Item Channel_Path="MyValue" Direction="SendAndReceive" XPath="/config/tab[5]/VolumeCommand[1]" />
+                <Item Channel_Path="MyValue" />
                 <Item Channel_Path="MyInt" Direction="SendAndReceive" XPath="/config/@w" />
               </p:DefaultValue>
             </Pin>

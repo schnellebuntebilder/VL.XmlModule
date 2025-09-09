@@ -315,6 +315,40 @@
               </p:ValueBoxSettings>
             </Pad>
             <ControlPoint Id="JJiykxYDbnpMQSbwC2ZrYZ" Bounds="421,820" />
+            <Node Bounds="142,740,105,19" Id="A1Ugd5Vi9xdMUI7kj83vT3">
+              <p:NodeReference LastCategoryFullName="System.Logging" LastDependency="VL.CoreLib.vl">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <CategoryReference Kind="Category" Name="Logging" NeedsToBeDirectParent="true" />
+                <Choice Kind="ProcessAppFlag" Name="Log" />
+              </p:NodeReference>
+              <Pin Id="LTdayL5Mf7uPU1RRk2gKHo" Name="Node Context" Kind="InputPin" IsHidden="true" />
+              <Pin Id="BfIcIAfkj9mNU9R3C81014" Name="Message" Kind="InputPin" />
+              <Pin Id="MsK5G4DlXs0MatXIDpj8eX" Name="Log Level" Kind="InputPin" />
+              <Pin Id="GWOwcvLIr59LMkSCsHoAnN" Name="Event Id" Kind="InputPin" IsHidden="true" />
+              <Pin Id="CBR5OD4NCSrN2wlPBBuvhl" Name="Argument" Kind="InputPin" />
+              <Pin Id="S3vvbQe9y27Os5XBJERIkw" Name="Argument 2" Kind="InputPin" />
+              <Pin Id="Gj4d4fMokKsPeiqUFvWa8L" Name="Category" Kind="InputPin" />
+              <Pin Id="En1WXrgRbMgOZYXAfBRZvO" Name="Exception" Kind="InputPin" IsHidden="true" />
+              <Pin Id="PVLOSi282wUNGsm6PSdQgv" Name="Apply" Kind="InputPin" />
+            </Node>
+            <Pad Id="PxKJv8oiDlQOqlLzPegR4h" Comment="" Bounds="144,710,149,17" ShowValueBox="true" isIOBox="true" Value="remove binding {0} | {1}">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                <Choice Kind="TypeFlag" Name="String" />
+              </p:TypeAnnotation>
+            </Pad>
+            <Node Bounds="202,661,78,26" Id="PdPam4GJ8f2O8kzsTM914q">
+              <p:NodeReference LastCategoryFullName="XmlModule.XmlBindingModel" LastDependency="XmlModule.vl">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <CategoryReference Kind="RecordType" Name="XmlBindingModel" NeedsToBeDirectParent="true" />
+                <Choice Kind="OperationCallFlag" Name="Split" />
+              </p:NodeReference>
+              <Pin Id="NqowZHnZgLRMFryl4nnzyi" Name="Input" Kind="StateInputPin" />
+              <Pin Id="N79Rox9PMOCLu78LdJCQ9K" Name="Output" Kind="OutputPin" IsHidden="true" />
+              <Pin Id="Jc7fPfv6LjbPJnUGiyEi3k" Name="XPath" Kind="OutputPin" />
+              <Pin Id="GqLHCOBUn5zPv1mA82SvSx" Name="Direction" Kind="OutputPin" />
+              <Pin Id="EzTCi7izXZwM8teulrhmLS" Name="Got Created Via Node" Kind="OutputPin" />
+              <Pin Id="R8FbOVRsmCnOP5QrAZ3Bh1" Name="Channel Path" Kind="OutputPin" />
+            </Node>
           </Canvas>
           <ProcessDefinition Id="Su8j5D8Yfm0Oygk0yMVRIQ" IsHidden="true">
             <Fragment Id="HIyFMtcdjdEP809ujiTQbN" Patch="AUDbm9UTVDtPsTsx61NPpu" Enabled="true" />
@@ -406,6 +440,10 @@
           <Link Id="L5fsIlDyJM6OReHW6Px2E1" Ids="NDVkgA6aqDROYX0q26F66A,SmAT3pf7vy5NLa7zWo9VWW" />
           <Link Id="QPuy7BXqr5NPu1INPJqrP1" Ids="JJiykxYDbnpMQSbwC2ZrYZ,VPuLUoPomjHMiFs4azFp4r" />
           <Link Id="I1yU3SeQfD5NiR5gxMXkEX" Ids="Bx5N6TSrkJdPVmiHyICLpM,JJiykxYDbnpMQSbwC2ZrYZ" IsHidden="true" />
+          <Link Id="HPHMxRJXVD9Pz3lsGAkqB3" Ids="PxKJv8oiDlQOqlLzPegR4h,BfIcIAfkj9mNU9R3C81014" />
+          <Link Id="UFV2ABFLQuGNUqVM5abR7T" Ids="Jy06eSN2kJlOOzGKNrDAML,NqowZHnZgLRMFryl4nnzyi" />
+          <Link Id="K2n85yky30pLUGb0d88sNx" Ids="Jc7fPfv6LjbPJnUGiyEi3k,CBR5OD4NCSrN2wlPBBuvhl" />
+          <Link Id="U7yHP2SpPPZNikOgoIDJ4F" Ids="GqLHCOBUn5zPv1mA82SvSx,S3vvbQe9y27Os5XBJERIkw" />
         </Patch>
       </Node>
       <!--

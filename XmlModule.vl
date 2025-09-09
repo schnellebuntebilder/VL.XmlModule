@@ -1447,7 +1447,7 @@
                   <Pin Id="QtONBCS19idLwv5bp8cKm9" Name="Input" Kind="StateInputPin" />
                   <Pin Id="JgZn1LOxvDdLGnvon6MvKO" Name="Result" Kind="OutputPin" />
                 </Node>
-                <Pad Id="Rkfd8vmXzE8MNrbBa0e1lR" Comment="Name" Bounds="480,453,132,15" ShowValueBox="true" isIOBox="true" Value="XmlBinding (NonGeneric)">
+                <Pad Id="Rkfd8vmXzE8MNrbBa0e1lR" Comment="Name" Bounds="480,453,130,43" ShowValueBox="true" isIOBox="true" Value="XmlBinding (NonGeneric)">
                   <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                     <Choice Kind="TypeFlag" Name="String" />
                   </p:TypeAnnotation>
@@ -1944,7 +1944,7 @@
             </Node>
             <ControlPoint Id="LdaoOnGzwlwLM6ALvbZ1Dr" Bounds="1208,650" />
             <Pad Id="MXVZxjpWhCIQNByhKPPk6K" SlotId="TTTepp5GqVJPmATMsvxhBd" Bounds="1153,652" />
-            <Node Bounds="222,687,319,475" Id="EIUbm35DTN5Mw7eftb1q8c">
+            <Node Bounds="207,687,334,371" Id="EIUbm35DTN5Mw7eftb1q8c">
               <p:NodeReference LastCategoryFullName="Reactive" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                 <CategoryReference Kind="Category" Name="Reactive" NeedsToBeDirectParent="true" />
@@ -1961,8 +1961,8 @@
                   <Pin Id="TxSzWUP70DfLWhY4oUnodO" Name="Input 1" Kind="InputPin" />
                   <Pin Id="Iu1foCVmKf5NHGQj7BtdWh" Name="Output" Kind="OutputPin" />
                 </Patch>
-                <ControlPoint Id="TwCv1komMfCQE0Q0zndvz2" Bounds="226,826" />
-                <ControlPoint Id="BnMrJ9aDVFZMbb0qnaHSu0" Bounds="226,1155" />
+                <ControlPoint Id="TwCv1komMfCQE0Q0zndvz2" Bounds="211,826" />
+                <ControlPoint Id="BnMrJ9aDVFZMbb0qnaHSu0" Bounds="211,1051" />
                 <Node Bounds="285,753,244,273" Id="FyL30EgFhMAO3KIw0q9NJt">
                   <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                     <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
@@ -2076,7 +2076,7 @@
             <Overlay Id="Qcfn8CWEpyANEadGMdWRMO" Name="LOCK" Bounds="695,644,134,146">
               <p:ColorIndex p:Type="Int32">2</p:ColorIndex>
             </Overlay>
-            <Node Bounds="443,447,54,19" Id="IAwzCfZpPO6NMQjFAErIr0">
+            <Node Bounds="428,447,54,19" Id="IAwzCfZpPO6NMQjFAErIr0">
               <p:NodeReference LastCategoryFullName="Control" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="OnOpen" />
@@ -2085,7 +2085,7 @@
               <Pin Id="DTuFdMKaD2ZOPLEQ4l0jwb" Name="Simulate" Kind="InputPin" />
               <Pin Id="CX8hwwx10fOMoeVdYe4LU5" Name="Output" Kind="OutputPin" />
             </Node>
-            <Node Bounds="222,515,214,19" Id="Kw7z4V1SEjdM99BrsH6WIQ">
+            <Node Bounds="207,515,214,19" Id="Kw7z4V1SEjdM99BrsH6WIQ">
               <p:NodeReference LastCategoryFullName="Reactive" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <CategoryReference Kind="Category" Name="Reactive" NeedsToBeDirectParent="true" />
@@ -2103,7 +2103,7 @@
               </p:TypeAnnotation>
             </Pad>
             <ControlPoint Id="KxHCQYgOwg9OOAwxx7inVV" Bounds="720,957" />
-            <Pad Id="IUsS2rNxzt0NA6In9eAdXf" Comment="Dispose Cached Outputs" Bounds="1526,630,35,35" ShowValueBox="true" isIOBox="true" Value="True">
+            <Pad Id="IUsS2rNxzt0NA6In9eAdXf" Comment="Dispose Cached Outputs" Bounds="1583,640,35,35" ShowValueBox="true" isIOBox="true" Value="True">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
               </p:TypeAnnotation>
@@ -2114,7 +2114,7 @@
             <ControlPoint Id="I3xbGPpdBGGO6V3qXldLxP" Bounds="928,514" />
             <ControlPoint Id="TgQilCRGfICK92d9VRRlWx" Bounds="928,514" />
             <ControlPoint Id="H1o4wTbUdddNKz3LvqlHXV" Bounds="1024,577" />
-            <Node Bounds="152,465,75,26" Id="L1hmLQsy7nAL3mIMqtR6DH">
+            <Node Bounds="137,465,75,26" Id="L1hmLQsy7nAL3mIMqtR6DH">
               <p:NodeReference LastCategoryFullName="XmlModule.XmlModule" LastDependency="XmlModule.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="XMLChanged" />
@@ -2123,7 +2123,7 @@
               <Pin Id="P7t7g2egLB7QVcjABobbDc" Name="Output" Kind="StateOutputPin" />
               <Pin Id="FLCVp0vSFbDN8pXuUWEiPA" Name="Changed" Kind="OutputPin" />
             </Node>
-            <Node Bounds="152,320,284,26" Id="L5G3IJHfyffPODS4qXwNjb">
+            <Node Bounds="137,320,284,26" Id="L5G3IJHfyffPODS4qXwNjb">
               <p:NodeReference LastCategoryFullName="XmlModule.XmlModule" LastDependency="XmlModule.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <CategoryReference Kind="ClassType" Name="XmlModule" NeedsToBeDirectParent="true" />
@@ -2133,7 +2133,7 @@
               <Pin Id="C9Hs2iBnYX4QDhQkwDmldr" Name="Output" Kind="StateOutputPin" />
               <Pin Id="ArzpNAPERWiObRcrlER7dQ" Name="FileName" Kind="OutputPin" />
             </Node>
-            <Node Bounds="431,475,67,19" Id="II3qfDZGJiuLOvIJcGwE11">
+            <Node Bounds="416,475,67,19" Id="II3qfDZGJiuLOvIJcGwE11">
               <p:NodeReference LastCategoryFullName="System.XML" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="XMLReader (Reactive)" />
@@ -2145,7 +2145,7 @@
               <Pin Id="B6vWA28WZO3MoxAbTUVBsU" Name="In Progress" Kind="OutputPin" />
               <Pin Id="TMQKGrPMi6DMulEV7Afnze" Name="On Completed" Kind="OutputPin" />
             </Node>
-            <Pad Id="NzmHWIevPTGOo9tQTbMGv9" Bounds="235,458,182,44" ShowValueBox="true" isIOBox="true" Value="need to read once here, when binding gets created">
+            <Pad Id="NzmHWIevPTGOo9tQTbMGv9" Bounds="220,458,182,44" ShowValueBox="true" isIOBox="true" Value="need to read once here, when binding gets created">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="String" />
               </p:TypeAnnotation>

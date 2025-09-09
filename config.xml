@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <!DOCTYPE ROOT PUBLIC "" ""[]>
-<config name="Unibonn-1" w="300" h="500" port="51305" opacity="0.9" timeout="50">
+<config name="Unibonn-1" w="305" h="500" port="51305" opacity="0.9" timeout="50">
   <tab name="vvvv">
     <WatchdogCommand name="Unibonn.exe" w="300" delayPatch="10" delayScript="10" delayCheck="10" singleinstance="true" executable="F:\projects\unibonn\export\unibonn-1\unibonn-1.exe" autostart="false" watchfile="vvvv.watchfile">1.23</WatchdogCommand>
   </tab>
@@ -14,7 +14,7 @@
     <HeartBeatCommand name="edge" w="300" h="40" target="192.168.30.60" port="51306" mode="UDP">11</HeartBeatCommand>
   </tab>
   <tab name="Parameters">
-    <VolumeCommand name="volume" w="200" h="120" orientation="Horizontal" default="0.5">3</VolumeCommand>
+    <VolumeCommand name="volume" w="200" h="120" orientation="Horizontal" default="0.5">1.15</VolumeCommand>
   </tab>
   <tab name="Power">
     <ShutDownCommand name="shutdown" w="300" h="100" delay="10">2025-08-06T18:30:23.743243+02:00</ShutDownCommand>
