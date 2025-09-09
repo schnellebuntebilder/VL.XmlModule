@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <!DOCTYPE ROOT PUBLIC "" ""[]>
-<config name="Unibonn-1" w="200" h="500" port="51305" opacity="0.9" timeout="50">
+<config name="Unibonn-1" w="400" h="500" port="51305" opacity="0.9" timeout="50">
   <tab name="vvvv">
     <WatchdogCommand name="Unibonn.exe" w="300" delayPatch="10" delayScript="10" delayCheck="10" singleinstance="true" executable="F:\projects\unibonn\export\unibonn-1\unibonn-1.exe" autostart="false" watchfile="vvvv.watchfile">1.23</WatchdogCommand>
   </tab>
