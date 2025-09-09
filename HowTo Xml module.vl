@@ -2169,19 +2169,6 @@
               <Choice Kind="TypeFlag" Name="BindingType" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="195,350,65,19" Id="UysLPpkMecIOx0qxlWWLSa">
-            <p:NodeReference LastCategoryFullName="Reactive" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="HoldLatest" />
-            </p:NodeReference>
-            <Pin Id="Bn1fVR3xQShPdBDycV80aM" Name="Node Context" Kind="InputPin" IsHidden="true" />
-            <Pin Id="IMTNSBldZnpNtqFzucJYSw" Name="Initial Result" Kind="InputPin" IsHidden="true" />
-            <Pin Id="M6YgszKWsc6PEQoUnEbKe3" Name="Async Notifications" Kind="InputPin" />
-            <Pin Id="GVTzBMSVE7vNy6S4QfgdOF" Name="Reset" Kind="InputPin" />
-            <Pin Id="K43QJjzt3b4L6jLznTuoVm" Name="Output" Kind="OutputPin" IsHidden="true" />
-            <Pin Id="OyOOnN7vxI7NEVnov5oEma" Name="Value" Kind="OutputPin" />
-            <Pin Id="Nz5s9xV8iyWNjxe9MW3t4J" Name="On Data" Kind="OutputPin" />
-          </Node>
           <Node Bounds="125,281,75,26" Id="KsHeBHPiEg2P6ZpfLivQZI">
             <p:NodeReference LastCategoryFullName="XmlModule.XmlModule" LastDependency="XmlModule.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -2191,20 +2178,6 @@
             <Pin Id="V6Uc6Ct8nGDLcdzaFojqFF" Name="Output" Kind="StateOutputPin" />
             <Pin Id="M9nm8srVYzDPO8QLTNDlA0" Name="Changed" Kind="OutputPin" />
           </Node>
-          <Node Bounds="255,391,85,19" Id="G9hYzXGD8FAO2cex1cCe9A">
-            <p:NodeReference LastCategoryFullName="Animation.FrameBased" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="Counter" />
-            </p:NodeReference>
-            <Pin Id="DdeLLREzeY5Ltej8pkVsdZ" Name="Node Context" Kind="InputPin" IsHidden="true" />
-            <Pin Id="GZBEiauqSZaMSUHmT19FZv" Name="Increment" Kind="InputPin" />
-            <Pin Id="CHMtU7jf1EnLGOaCXlpeDV" Name="Default" Kind="InputPin" />
-            <Pin Id="MLRX5S6yiySMLrAV8m7Jby" Name="Up" Kind="ApplyPin" />
-            <Pin Id="SUJuZflNRHGOzHKj8Tb2ib" Name="Down" Kind="ApplyPin" />
-            <Pin Id="SGrONnPzqH1QQosnT6GxLa" Name="Reset" Kind="ApplyPin" />
-            <Pin Id="IOklAsKu3d8PYFQGmOWJ2c" Name="Value" Kind="OutputPin" />
-          </Node>
-          <Pad Id="Jbj4HiLpThVQVGbqIrustT" Comment="" Bounds="257,430,35,15" ShowValueBox="true" isIOBox="true" />
         </Canvas>
         <Patch Id="CPjqaGO113jPocorJ7hdE9" Name="Create" />
         <Patch Id="F4CiIuwbKLVQCMVruCdLWc" Name="Update" />
@@ -2223,9 +2196,6 @@
         <Link Id="JXK8YG1N2iPM6qovcheUCr" Ids="HRqEoQ9ZksPQLNySbhpSCW,MQ1W0aOgfZcOJ4cbbus7mg" />
         <Link Id="QZJ5qH2loeIPxeQI5GbfHp" Ids="Jj7LEpMVCHWQbnhCIoblXq,TwLfHnnsgN2QXTq5XQmVgI" />
         <Link Id="TTkt5eegBmzQYPpLsdC3Et" Ids="UaMwa50YP6ZNyO8CpeMxbE,Q7LKYckLGLlPDMOw7ORARZ" />
-        <Link Id="DjmPbuHjmw6MDwagGQxzDQ" Ids="M9nm8srVYzDPO8QLTNDlA0,M6YgszKWsc6PEQoUnEbKe3" />
-        <Link Id="AA45uJz1tVSNsB82jiI3wi" Ids="IOklAsKu3d8PYFQGmOWJ2c,Jbj4HiLpThVQVGbqIrustT" />
-        <Link Id="IX3bqw7ep9lQZq9b6u1UgL" Ids="Nz5s9xV8iyWNjxe9MW3t4J,MLRX5S6yiySMLrAV8m7Jby" />
       </Patch>
     </Node>
   </Patch>
