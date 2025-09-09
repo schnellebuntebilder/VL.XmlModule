@@ -89,14 +89,15 @@
             </p:NodeReference>
             <Pin Id="KjWHBeF4L30Mr03pHrIR5N" Name="Model" Kind="InputPin">
               <p:DefaultValue r:Type="Spread [Collections]&lt;XmlBindingModel [XmlModule]&gt;" xmlns:r="reflection" r:Version="2">
-                <Item Channel_Path="MyValue" Direction="SendAndReceive" FilePath="config.xml" XPath="/config/tab[5]/VolumeCommand[1]" />
-                <Item Channel_Path="MyTime" Direction="Receive" FilePath="config.xml" XPath="/config/tab[6]/ShutDownCommand[1]" />
-                <Item Channel_Path="MyInt" Direction="SendAndReceive" FilePath="config.xml" XPath="/config/@w" />
-                <Item Channel_Path="MyString" Direction="SendAndReceive" FilePath="config.xml" XPath="/config/@name" />
+                <Item Channel_Path="MyValue" Direction="SendAndReceive" XPath="/config/tab[5]/VolumeCommand[1]" />
+                <Item Channel_Path="MyTime" Direction="Receive" XPath="/config/tab[6]/ShutDownCommand[1]" />
+                <Item Channel_Path="MyString" Direction="SendAndReceive" XPath="/config/@name" />
+                <Item Channel_Path="MyInt" Direction="SendAndReceive" XPath="/config/@w" />
               </p:DefaultValue>
             </Pin>
             <Pin Id="HZds4UkQvyvQWYZD124Ant" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="UaMwa50YP6ZNyO8CpeMxbE" Name="Output" Kind="OutputPin" />
+            <Pin Id="MQ1W0aOgfZcOJ4cbbus7mg" Name="FileName" Kind="InputPin" />
             <Pin Id="TwLfHnnsgN2QXTq5XQmVgI" Name="Direction" Kind="InputPin" />
           </Node>
           <Node Bounds="697,250,80,19" Id="OIt8snuLYFNLHNcbZbcgBD">
@@ -2135,7 +2136,7 @@
               <Link Id="RFs653oQjWBMmkBX2tRXbo" Ids="AJsZKhjonDmQDC9H6hYe54,DtraRqAcKcyPFUdEbh8Dl8" />
             </Patch>
           </Node>
-          <Node Bounds="410,390,80,19" Id="BruBpQRTt3ENsYw22g1H5M">
+          <Node Bounds="548,380,80,19" Id="BruBpQRTt3ENsYw22g1H5M">
             <p:NodeReference LastCategoryFullName="Application" LastDependency="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="PublicChannel" />
@@ -2148,14 +2149,24 @@
             <Pin Id="BBApND3INKYPgg4OXopSpK" Name="Value" Kind="OutputPin" />
             <Pin Id="FmbMnNC8bKUObvRRZHThdU" Name="Author" Kind="InputPin" IsHidden="true" />
           </Node>
-          <Pad Id="KBIw0cj1eLgLGeCR2r977R" Comment="Path" Bounds="412,360,71,15" ShowValueBox="true" isIOBox="true" Value="MyTime">
+          <Pad Id="KBIw0cj1eLgLGeCR2r977R" Comment="Path" Bounds="550,350,71,15" ShowValueBox="true" isIOBox="true" Value="MyTime">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="TzpjRIdGaCDO5PGIUm4Lzt" Comment="" Bounds="487,431,190,132" ShowValueBox="true" isIOBox="true">
+          <Pad Id="TzpjRIdGaCDO5PGIUm4Lzt" Comment="" Bounds="625,421,190,132" ShowValueBox="true" isIOBox="true">
             <p:TypeAnnotation LastCategoryFullName="System" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="DateTime" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="HRqEoQ9ZksPQLNySbhpSCW" Comment="FileName" Bounds="267,161,196,15" ShowValueBox="true" isIOBox="true" Value="config.xml">
+            <p:TypeAnnotation LastCategoryFullName="IO" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Path" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="Jj7LEpMVCHWQbnhCIoblXq" Comment="Direction" Bounds="300,190,104,15" ShowValueBox="true" isIOBox="true" Value="SendAndReceive">
+            <p:TypeAnnotation LastCategoryFullName="Application.ChannelHub.Modules" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="BindingType" />
             </p:TypeAnnotation>
           </Pad>
         </Canvas>
@@ -2173,6 +2184,8 @@
         <Link Id="Tp6C7bFnarCPlMY7hQzZ64" Ids="MT1jQ97MwWFOjd0N8ha5Ei,U9tCQzc9lqVPz6QXMk4ZhQ" />
         <Link Id="T26fF4ECOt7OiHuiLMrkzJ" Ids="KBIw0cj1eLgLGeCR2r977R,BE2umbUJCyQN8hf6hg28dg" />
         <Link Id="IYkYQzjGh6fN2doyEOxqIt" Ids="BBApND3INKYPgg4OXopSpK,TzpjRIdGaCDO5PGIUm4Lzt" />
+        <Link Id="JXK8YG1N2iPM6qovcheUCr" Ids="HRqEoQ9ZksPQLNySbhpSCW,MQ1W0aOgfZcOJ4cbbus7mg" />
+        <Link Id="QZJ5qH2loeIPxeQI5GbfHp" Ids="Jj7LEpMVCHWQbnhCIoblXq,TwLfHnnsgN2QXTq5XQmVgI" />
       </Patch>
     </Node>
   </Patch>
