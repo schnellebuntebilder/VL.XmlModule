@@ -1,4 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PublicChannels>
+  <Channel Name="MyInt" Type="Integer32 [Primitive]" />
+  <Channel Name="MyString" Type="String [Primitive]" />
+  <Channel Name="MyTime" Type="DateTime [System]" />
   <Channel Name="MyValue" Type="Float32 [Primitive]" />
 </PublicChannels>
