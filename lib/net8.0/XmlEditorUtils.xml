@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>XmlEditorUtils</name>
+    </assembly>
+    <members>
+        <member name="M:Main.Utils.GetAllXpaths(System.Xml.Linq.XElement,VL.Lib.Collections.SpreadBuilder{System.String},System.Boolean)">
+             <summary>
+             Recursively collects:
+              - The absolute XPath of every leaf (non-parent) element within the subtree rooted at <paramref name="element"/>.
+              - (Optionally) the absolute XPath of every attribute on every element in that subtree when <paramref name="CollectAttributes"/> is true.
+            
+             If the root element itself has no child elements, its XPath is returned.
+             Attribute XPaths use the form: element-absolute-xpath + "/@attrName"
+             (e.g. "/people/person[6]/@id").
+             </summary>
+             <param name="element">
+             The root <see cref="T:System.Xml.Linq.XElement"/> whose descendant leaf element (and optionally attribute) XPaths will be gathered.
+             </param>
+             <param name="values">
+             (Ignored on input) A builder instance used internally to accumulate XPath strings.
+             A new <see cref="T:VL.Lib.Collections.SpreadBuilder`1"/> is always created at the start of the call.
+             </param>
+             <param name="CollectAttributes">
+             When true, attribute XPaths are included; when false, only leaf element XPaths are returned.
+             </param>
+             <returns>
+             A <see cref="T:VL.Lib.Collections.Spread`1"/> containing:
+              - The absolute XPath of each leaf element.
+              - (If enabled) The absolute XPath of every attribute encountered.
+             Order is depth‑first; attributes (when included) are listed before descending to children (and
+             before the element itself if it is a leaf).
+             </returns>
+        </member>
+        <member name="M:Main.Utils.GetAbsoluteXPath(System.Xml.Linq.XElement)">
+            <summary>
+            Get the absolute XPath to a given XElement
+            (e.g. "/people/person[6]/name[1]/last[1]").
+            </summary>
+        </member>
+        <member name="M:Main.Utils.GetAbsoluteXPath(System.Xml.Linq.XAttribute)">
+            <summary>
+            Get the absolute XPath of an attribute (e.g. "/people/person[6]/@id").
+            </summary>
+        </member>
+        <member name="M:Main.Utils.IndexPosition(System.Xml.Linq.XElement)">
+            <summary>
+            Get the index of the given XElement relative to its siblings with identical names.
+            If the given element is the root, -1 is returned.
+            </summary>
+        </member>
+    </members>
+</doc>
