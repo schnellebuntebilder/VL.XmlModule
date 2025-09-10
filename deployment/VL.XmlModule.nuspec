@@ -12,7 +12,7 @@
     <title>VL.XmlModule</title>
     <!-- Provide authors, projectUrl (website) and repository url--> 
     <authors>sebl</authors>
-    <projectUrl></projectUrl>
+    <projectUrl>https://vvvv.org/</projectUrl>
     <repository type="git" url="https://github.com/schnellebuntebilder/VL.XmlModulee.git" />
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <!-- Provide description and tags-->
