@@ -82,7 +82,7 @@
               <Choice Kind="ImmutableTypeFlag" Name="String" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="125,280,71,19" Id="U2vyXpLACpBM3UbEdLYY3v">
+          <Node Bounds="125,260,71,19" Id="U2vyXpLACpBM3UbEdLYY3v">
             <p:NodeReference LastCategoryFullName="Main" LastDependency="EchoModule.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="XmlModule" />
@@ -90,9 +90,8 @@
             <Pin Id="KjWHBeF4L30Mr03pHrIR5N" Name="Model" Kind="InputPin">
               <p:DefaultValue r:Type="Spread [Collections]&lt;XmlBindingModel [XmlModule]&gt;" xmlns:r="reflection" r:Version="2">
                 <Item Channel_Path="MyTime" Direction="Receive" XPath="/config/tab[6]/ShutDownCommand[1]" />
-                <Item Channel_Path="MyString" Direction="SendAndReceive" XPath="/config/@name" />
                 <Item Channel_Path="MyValue" Direction="SendAndReceive" XPath="/config/tab[5]/VolumeCommand[1]" />
-                <Item Channel_Path="MyValue" />
+                <Item Channel_Path="MyString" Direction="SendAndReceive" XPath="/config/@name" />
                 <Item Channel_Path="MyInt" Direction="SendAndReceive" XPath="/config/@w" />
               </p:DefaultValue>
             </Pin>
@@ -2170,6 +2169,57 @@
               <Choice Kind="TypeFlag" Name="BindingType" />
             </p:TypeAnnotation>
           </Pad>
+          <Node Bounds="78,317,269,186" Id="TJjXEsnmzVgPnlgKzteXgH">
+            <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
+              <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
+              <CategoryReference Kind="Category" Name="Primitive" />
+              <Choice Kind="ApplicationStatefulRegion" Name="If" />
+            </p:NodeReference>
+            <Pin Id="Ag9Z7p1So4xNcm8phygfWp" Name="Condition" Kind="InputPin" DefaultValue="False" />
+            <Patch Id="MEXJHgzJy3LPENaJS3pIWa" ManuallySortedPins="true">
+              <Patch Id="GelPBh3Gqf2NzecRMZu7FI" Name="Create" ManuallySortedPins="true" />
+              <Patch Id="CBfnC81t8UcOFjydkLmwPI" Name="Then" ManuallySortedPins="true" />
+              <Node Bounds="125,460,65,19" Id="BdmaDGATQwBMgDWnwHpLxD">
+                <p:NodeReference LastCategoryFullName="XmlModule" LastDependency="XmlModule.vl">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <Choice Kind="ProcessAppFlag" Name="BindToXml" />
+                </p:NodeReference>
+                <Pin Id="K7qOALf2elAQRusbe1TmOE" Name="Node Context" Kind="InputPin" IsHidden="true" />
+                <Pin Id="AS8RLYDe39oNh3r84GkBmB" Name="Module" Kind="InputPin" />
+                <Pin Id="OY7GRfw0DziMhNRZ3Frnqz" Name="Channel" Kind="InputPin" />
+                <Pin Id="OAAT8FDOS3JPS02MJ8nADv" Name="Direction" Kind="InputPin" />
+                <Pin Id="FSp0ejCFs71LKNeQcT5vPo" Name="XPath" Kind="InputPin" />
+              </Node>
+              <Node Bounds="145,340,53,19" Id="R24VszD5PCBQUAodvA6gOA">
+                <p:NodeReference LastCategoryFullName="Reactive" LastDependency="VL.CoreLib.vl">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <CategoryReference Kind="Category" Name="Reactive" NeedsToBeDirectParent="true" />
+                  <Choice Kind="ProcessAppFlag" Name="Channel" />
+                </p:NodeReference>
+                <Pin Id="GVYDXTHmb8wOWpezEoRCno" Name="Node Context" Kind="InputPin" IsHidden="true" />
+                <Pin Id="QW1AaSlZaQ2MBICk0kKTAm" Name="Initial Value" Kind="InputPin" IsHidden="true" />
+                <Pin Id="UzQjTN65OKlOL4ZAAv8y6v" Name="Value" Kind="InputPin" />
+                <Pin Id="KZCbpDHsslvPikU5RynEbu" Name="Output" Kind="OutputPin" />
+                <Pin Id="OX6GJajspspMrSCknESaiR" Name="Value" Kind="OutputPin" />
+                <Pin Id="IClxehmXbyyPhRr70RMmE0" Name="Author" Kind="InputPin" IsHidden="true" />
+              </Node>
+              <Pad Id="R4Nc1JaOzdjOeDgGdzlOFW" Comment="XPath" Bounds="187,440,83,15" ShowValueBox="true" isIOBox="true" Value="/config/@w">
+                <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                  <Choice Kind="TypeFlag" Name="String" />
+                </p:TypeAnnotation>
+              </Pad>
+              <Pad Id="FaXCM92P2AsNRtH6k5gadH" Comment="Direction" Bounds="167,410,104,15" ShowValueBox="true" isIOBox="true" Value="SendAndReceive">
+                <p:TypeAnnotation LastCategoryFullName="Application.ChannelHub.Modules" LastDependency="VL.CoreLib.vl">
+                  <Choice Kind="TypeFlag" Name="BindingType" />
+                </p:TypeAnnotation>
+              </Pad>
+              <Pad Id="C8KplLCv0m0OHg88Fdqknv" Comment="" Bounds="195,380,35,15" ShowValueBox="true" isIOBox="true">
+                <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                  <Choice Kind="ImmutableTypeFlag" Name="Integer32" />
+                </p:TypeAnnotation>
+              </Pad>
+            </Patch>
+          </Node>
         </Canvas>
         <Patch Id="CPjqaGO113jPocorJ7hdE9" Name="Create" />
         <Patch Id="F4CiIuwbKLVQCMVruCdLWc" Name="Update" />
@@ -2187,6 +2237,11 @@
         <Link Id="IYkYQzjGh6fN2doyEOxqIt" Ids="BBApND3INKYPgg4OXopSpK,TzpjRIdGaCDO5PGIUm4Lzt" />
         <Link Id="JXK8YG1N2iPM6qovcheUCr" Ids="HRqEoQ9ZksPQLNySbhpSCW,MQ1W0aOgfZcOJ4cbbus7mg" />
         <Link Id="QZJ5qH2loeIPxeQI5GbfHp" Ids="Jj7LEpMVCHWQbnhCIoblXq,TwLfHnnsgN2QXTq5XQmVgI" />
+        <Link Id="TVbmG8eh6nSLK3c7Lf0Xda" Ids="UaMwa50YP6ZNyO8CpeMxbE,AS8RLYDe39oNh3r84GkBmB" />
+        <Link Id="FnOKkdYswlNMNWeh7EgpBB" Ids="R4Nc1JaOzdjOeDgGdzlOFW,FSp0ejCFs71LKNeQcT5vPo" />
+        <Link Id="K10HwKmV4SMMPGwdug95bq" Ids="KZCbpDHsslvPikU5RynEbu,OY7GRfw0DziMhNRZ3Frnqz" />
+        <Link Id="UNn5PdrSD7wN1k8xIMYJgT" Ids="FaXCM92P2AsNRtH6k5gadH,OAAT8FDOS3JPS02MJ8nADv" />
+        <Link Id="UiaEoOBa41WNPaTGYdH9dH" Ids="OX6GJajspspMrSCknESaiR,C8KplLCv0m0OHg88Fdqknv" />
       </Patch>
     </Node>
   </Patch>
