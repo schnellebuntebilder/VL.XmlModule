@@ -205,5 +205,5 @@
   <NugetDependency Id="EhDlaQA27APLEyhWMaIWCC" Location="VL.ImGui.Skia" Version="2025.7.0" />
   <NugetDependency Id="QlmhDeqsqQANmuiNkAGgbb" Location="VL.Skia" Version="2025.7.0" />
   <NugetDependency Id="Sx47rBLBGKDOwrKBWMLXCf" Location="VL.ImGui" Version="2025.7.0" />
-  <DocumentDependency Id="SejQOkOsKjhQJlUmGEliPQ" Location="../XmlModule.vl" />
+  <DocumentDependency Id="H0JE9lisEsxNJAfYcCahtQ" Location="../../../VL.XmlModule/VL.XmlModule.vl" />
 </Document>
