@@ -2239,7 +2239,6 @@
   <DocumentDependency Id="JtsL3F59F1ZOj6rqAemXNv" Location="./XmlModule.vl" />
   <NugetDependency Id="Uh5t6PattuVL1JY0QpHVQH" Location="VL.IO.OSC" Version="2.0.4" />
   <NugetDependency Id="PZz6jTNx4PaMbdI9XTOBpK" Location="VL.HDE" Version="2025.7.0" />
-  <ProjectDependency Id="E6GMoRpIqesND9cAIBRUJQ" Location="./csharp/XmlEditorUtils/XmlEditorUtils.csproj" />
   <PlatformDependency Id="LKT42nTYWYQOM1BXLpQpkD" Location="System.Xml.XDocument" />
   <NugetDependency Id="U1BIasKMVoANG6Sv3UGDKY" Location="VL.ImGui.Skia" Version="2025.7.0" />
 </Document>

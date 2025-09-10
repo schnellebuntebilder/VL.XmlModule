@@ -2798,5 +2798,5 @@
     </Node>
   </Patch>
   <PlatformDependency Id="EBlE7nEyp6CNUIgEHLdYGJ" Location="System.Xml.XDocument" />
-  <ProjectDependency Id="RbnchTxYhjhN1R4qMqXj0Q" Location="./csharp/XmlEditorUtils/XmlEditorUtils.csproj" />
+  <ProjectDependency Id="RbnchTxYhjhN1R4qMqXj0Q" Location="./csharp/XmlEditorUtils/XmlEditorUtils.csproj" IsForward="true" />
 </Document>

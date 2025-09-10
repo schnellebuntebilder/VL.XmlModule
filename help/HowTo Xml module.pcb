@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE ROOT PUBLIC "" ""[]>
+<ChannelBrowserState Bezier_Handles_Visible="True" Current_View=" " Transition_Duration="2">
+  <Channel_Colors>
+    <Item Key="MyInt" Value="0.53999996, 0.53999996, 0.26, 1" />
+    <Item Key="MyString" Value="0.26, 0.53999996, 0.53999996, 1" />
+    <Item Key="MyTime" Value="0.53999996, 0.26, 0.53999996, 1" />
+    <Item Key="MyValue" Value="0.116472036, 0.8982558, 0.07833625, 1" />
+  </Channel_Colors>
+  <Panel_Sizes>
+    <Item Key="Views Panel" Value="2" />
+  </Panel_Sizes>
+  <Views>
+    <Item Key=" ">
+      <Value Name=" ">
+        <FilterData />
+      </Value>
+    </Item>
+  </Views>
+  <Visible_Columns>
+    <Item>Name</Item>
+    <Item>Bindings</Item>
+    <Item>Value</Item>
+  </Visible_Columns>
+  <Visible_Panels>
+    <Item>Main Panel</Item>
+  </Visible_Panels>
+</ChannelBrowserState>
