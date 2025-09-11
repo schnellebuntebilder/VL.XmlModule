@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PublicChannels>
+  <Channel Name="config/h" Type="Integer32 [Primitive]" />
+  <Channel Name="config/name" Type="String [Primitive]" />
+  <Channel Name="config/opacity" Type="Float32 [Primitive]" />
+  <Channel Name="config/port" Type="Integer32 [Primitive]" />
+  <Channel Name="config/tab/Notepad/name" Type="String [Primitive]" />
+  <Channel Name="config/tab/Notepad/WatchdogCommand" Type="Float32 [Primitive]" />
+  <Channel Name="config/tab/Notepad/WatchdogCommand/autostart" Type="Boolean [Primitive]" />
+  <Channel Name="config/tab/Notepad/WatchdogCommand/executable" Type="String [Primitive]" />
+  <Channel Name="config/tab/Notepad/WatchdogCommand/name" Type="String [Primitive]" />
+  <Channel Name="config/tab/Notepad/WatchdogCommand/w" Type="Integer32 [Primitive]" />
+  <Channel Name="config/tab/Power/name" Type="String [Primitive]" />
+  <Channel Name="config/tab/Power/ShutDownCommand" Type="DateTime [System]" />
+  <Channel Name="config/tab/Power/ShutDownCommand/delay" Type="Integer32 [Primitive]" />
+  <Channel Name="config/tab/Power/ShutDownCommand/h" Type="Integer32 [Primitive]" />
+  <Channel Name="config/tab/Power/ShutDownCommand/name" Type="String [Primitive]" />
+  <Channel Name="config/tab/Power/ShutDownCommand/w" Type="Integer32 [Primitive]" />
+  <Channel Name="config/tab/Power/VolumeCommand" Type="Float32 [Primitive]" />
+  <Channel Name="config/tab/Power/VolumeCommand/default" Type="Float32 [Primitive]" />
+  <Channel Name="config/tab/Power/VolumeCommand/h" Type="Integer32 [Primitive]" />
+  <Channel Name="config/tab/Power/VolumeCommand/name" Type="String [Primitive]" />
+  <Channel Name="config/tab/Power/VolumeCommand/orientation" Type="String [Primitive]" />
+  <Channel Name="config/tab/Power/VolumeCommand/w" Type="Integer32 [Primitive]" />
+  <Channel Name="config/timeout" Type="Integer32 [Primitive]" />
+  <Channel Name="config/w" Type="Integer32 [Primitive]" />
+</PublicChannels>
